@@ -1,5 +1,9 @@
 import React from 'react';
-import { Button } from 'hel-antd';
+import s from 'hel-antd';
+
+const { Button } = s;
+
+console.log(Button);
 
 export default function App() {
   return (

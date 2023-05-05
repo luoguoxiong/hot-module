@@ -1,0 +1,16 @@
+{
+  "npmClient": "pnpm",
+  "useWorkspaces": true,
+  "version": "0.8.0",
+  "command": {
+      "version": {
+          "allowBranch": "master"
+      }
+  },
+  "publishConfig": {
+      "access": "public"
+  },
+  "packages": [
+      "packages/*"
+  ]
+}

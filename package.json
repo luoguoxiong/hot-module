@@ -1,0 +1,24 @@
+{
+  "name": "hot-module",
+  "version": "0.0.1",
+  "description": "1. 打包的产物存",
+  "main": "index.js",
+  "scripts": {
+    "build": "lerna run build",
+    "bootstrap": "lerna bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luoguoxiong/hot-module.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luoguoxiong/hot-module/issues"
+  },
+  "homepage": "https://github.com/luoguoxiong/hot-module#readme",
+  "devDependencies": {
+    "@hulljs/eslint-config-hull-app": "^0.8.0",
+    "lerna": "^6.6.1"
+  }
+}

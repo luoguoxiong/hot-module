@@ -1,0 +1,16 @@
+{
+  "name": "hot-antd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/entry.ts",
+  "types": "./src/type.d.ts",
+  "scripts": {
+      "build": "tsc",
+      "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "author": "",
+  "license": "ISC"
+}

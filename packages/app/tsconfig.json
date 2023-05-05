@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "ES2015",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "@/src/*": ["./src/*"]
+    }
+  },
+  "files": ["./index.d.ts"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
